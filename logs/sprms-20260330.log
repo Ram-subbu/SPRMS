@@ -1,0 +1,126 @@
+2026-03-30 21:56:38.234 +05:30 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-03-30 21:56:38.426 +05:30 [INF] Start installing Hangfire SQL objects...
+2026-03-30 21:56:39.718 +05:30 [INF] Hangfire SQL objects installed.
+2026-03-30 21:56:40.426 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 21:56:40.442 +05:30 [INF] Creating key {8fedf203-c756-4266-afa2-32ab98516439} with creation date 2026-03-30 16:26:40Z, activation date 2026-03-30 16:26:40Z, and expiration date 2026-06-28 16:26:40Z.
+2026-03-30 21:56:40.465 +05:30 [INF] Writing data to file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-8fedf203-c756-4266-afa2-32ab98516439.xml'.
+2026-03-30 21:56:40.561 +05:30 [FTL] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'SPRMS.Common.IGeoIPService' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2026-03-30 21:56:40.610 +05:30 [ERR] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'SPRMS.Common.IGeoIPService' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2026-03-30 21:56:40.614 +05:30 [FTL] SPRMS API failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'SPRMS.Common.IGeoIPService' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in D:\code\SPRM\SPRMS.API\Program.cs:line 196
+2026-03-30 22:01:17.004 +05:30 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-03-30 22:01:17.064 +05:30 [INF] Start installing Hangfire SQL objects...
+2026-03-30 22:01:17.296 +05:30 [INF] Hangfire SQL objects installed.
+2026-03-30 22:01:17.493 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-30 22:01:17.616 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-03-30 22:01:17.663 +05:30 [INF] Now listening on: https://localhost:58231
+2026-03-30 22:01:17.663 +05:30 [INF] Now listening on: http://localhost:58232
+2026-03-30 22:01:17.670 +05:30 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.10.139@SPRMS_V1'
+2026-03-30 22:01:17.670 +05:30 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2026-03-30 22:01:17.670 +05:30 [INF] Using the following options for Hangfire Server:
+    Worker count: 4
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-03-30 22:01:17.684 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-30 22:01:17.685 +05:30 [INF] Hosting environment: Development
+2026-03-30 22:01:17.685 +05:30 [INF] Content root path: D:\code\SPRM\SPRMS.API
+2026-03-30 22:01:17.705 +05:30 [INF] Server krishna-bsspl:36224:ce095cf0 successfully announced in 22.697 ms
+2026-03-30 22:01:17.707 +05:30 [INF] Server krishna-bsspl:36224:ce095cf0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-03-30 22:01:17.710 +05:30 [INF] Server krishna-bsspl:36224:ce095cf0 all the dispatchers started
+2026-03-30 22:01:31.269 +05:30 [ERR] Health check redis with status "Unhealthy" completed after 13233.0063ms with message 'null'
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=PING, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: KRISHNA-BSSPL(SE.Redis-v2.8.16.12844), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=8,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=291,Timers=9), v: 2.8.16.12844 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at HealthChecks.Redis.RedisHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /_/src/HealthChecks.Redis/RedisHealthCheck.cs:line 75
+2026-03-30 22:02:20.227 +05:30 [ERR] Health check redis with status "Unhealthy" completed after 17221.1897ms with message 'null'
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=PING, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: KRISHNA-BSSPL(SE.Redis-v2.8.16.12844), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=8,Max=32767), POOL: (Threads=5,QueuedItems=0,CompletedItems=1177,Timers=9), v: 2.8.16.12844 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at HealthChecks.Redis.RedisHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /_/src/HealthChecks.Redis/RedisHealthCheck.cs:line 75
+2026-03-30 22:03:20.321 +05:30 [ERR] Health check redis with status "Unhealthy" completed after 17156.6134ms with message 'null'
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=PING, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: KRISHNA-BSSPL(SE.Redis-v2.8.16.12844), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=8,Max=32767), POOL: (Threads=5,QueuedItems=0,CompletedItems=2237,Timers=9), v: 2.8.16.12844 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at HealthChecks.Redis.RedisHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /_/src/HealthChecks.Redis/RedisHealthCheck.cs:line 75
+2026-03-30 22:04:20.543 +05:30 [ERR] Health check redis with status "Unhealthy" completed after 17216.5855ms with message 'null'
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=PING, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: KRISHNA-BSSPL(SE.Redis-v2.8.16.12844), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=8,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=3299,Timers=9), v: 2.8.16.12844 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at HealthChecks.Redis.RedisHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /_/src/HealthChecks.Redis/RedisHealthCheck.cs:line 75
+2026-03-30 22:04:41.818 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:58232/health - null null
+2026-03-30 22:04:41.905 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:58232/health - 307 0 null 87.8933ms
+2026-03-30 22:04:57.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:58232/swagger - null null
+2026-03-30 22:04:57.959 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:58232/swagger - 301 0 null 4.5307ms
+2026-03-30 22:04:57.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:58232/swagger/index.html - null null
+2026-03-30 22:04:58.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:58232/swagger/index.html - 200 null text/html;charset=utf-8 79.1356ms
+2026-03-30 22:05:10.845 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.855 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 10.3559ms
+2026-03-30 22:05:10.900 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.901 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.472ms
+2026-03-30 22:05:10.911 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.912 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.5226ms
+2026-03-30 22:05:10.923 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.923 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.3123ms
+2026-03-30 22:05:10.931 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.931 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.7729ms
+2026-03-30 22:05:10.940 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.940 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.2781ms
+2026-03-30 22:05:10.948 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.948 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.3457ms
+2026-03-30 22:05:10.956 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.957 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.302ms
+2026-03-30 22:05:10.964 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.965 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.3007ms
+2026-03-30 22:05:10.973 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.973 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.3123ms
+2026-03-30 22:05:10.980 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - application/json 2
+2026-03-30 22:05:10.980 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:58232/api/v1/auth/login - 307 0 null 0.3398ms
+2026-03-30 22:05:20.610 +05:30 [ERR] Health check redis with status "Unhealthy" completed after 17166.9517ms with message 'null'
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=PING, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: KRISHNA-BSSPL(SE.Redis-v2.8.16.12844), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=8,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=4569,Timers=9), v: 2.8.16.12844 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at HealthChecks.Redis.RedisHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /_/src/HealthChecks.Redis/RedisHealthCheck.cs:line 75
+2026-03-30 22:05:23.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:58232/health - null null
+2026-03-30 22:05:23.057 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:58232/health - 307 0 null 0.4034ms
+2026-03-30 22:05:23.068 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:58232/swagger/index.html - null null
+2026-03-30 22:05:23.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:58232/swagger/index.html - 200 null text/html;charset=utf-8 0.5751ms
+2026-03-30 22:05:23.083 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:58232/swagger/v1/swagger.json - null null
+2026-03-30 22:05:23.101 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:58232/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.1729ms

@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SPRMS.Application/1.0.0": {
+        "dependencies": {
+          "SPRMS.Common": "1.0.0",
+          "SPRMS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SPRMS.Application.dll": {}
+        }
+      },
+      "SPRMS.Common/1.0.0": {
+        "dependencies": {
+          "SPRMS.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SPRMS.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SPRMS.Domain/1.0.0": {
+        "runtime": {
+          "SPRMS.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SPRMS.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SPRMS.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SPRMS.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

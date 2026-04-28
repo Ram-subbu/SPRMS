@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SPRMS.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58231;http://localhost:58232"
+    }
+  }
+}
