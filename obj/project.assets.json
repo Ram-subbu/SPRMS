@@ -10308,11 +10308,11 @@
   "project": {
     "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web Projects\\SPRM\\SPRMS.API\\SPRMS.API.csproj",
+      "projectUniqueName": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.API\\SPRMS.API.csproj",
       "projectName": "SPRMS.API",
-      "projectPath": "D:\\Web Projects\\SPRM\\SPRMS.API\\SPRMS.API.csproj",
+      "projectPath": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.API\\SPRMS.API.csproj",
       "packagesPath": "C:\\Users\\ramsubbu\\.nuget\\packages\\",
-      "outputPath": "D:\\Web Projects\\SPRM\\SPRMS.API\\obj\\",
+      "outputPath": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10335,17 +10335,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Web Projects\\SPRM\\SPRMS.Application\\SPRMS.Application.csproj": {
-              "projectPath": "D:\\Web Projects\\SPRM\\SPRMS.Application\\SPRMS.Application.csproj"
+            "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Application\\SPRMS.Application.csproj": {
+              "projectPath": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Application\\SPRMS.Application.csproj"
             },
-            "D:\\Web Projects\\SPRM\\SPRMS.Common\\SPRMS.Common.csproj": {
-              "projectPath": "D:\\Web Projects\\SPRM\\SPRMS.Common\\SPRMS.Common.csproj"
+            "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Common\\SPRMS.Common.csproj": {
+              "projectPath": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Common\\SPRMS.Common.csproj"
             },
-            "D:\\Web Projects\\SPRM\\SPRMS.Domain\\SPRMS.Domain.csproj": {
-              "projectPath": "D:\\Web Projects\\SPRM\\SPRMS.Domain\\SPRMS.Domain.csproj"
+            "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Domain\\SPRMS.Domain.csproj": {
+              "projectPath": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Domain\\SPRMS.Domain.csproj"
             },
-            "D:\\Web Projects\\SPRM\\SPRMS.Infrastructure\\SPRMS.Infrastructure.csproj": {
-              "projectPath": "D:\\Web Projects\\SPRM\\SPRMS.Infrastructure\\SPRMS.Infrastructure.csproj"
+            "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Infrastructure\\SPRMS.Infrastructure.csproj": {
+              "projectPath": "D:\\Web Projects\\SPRMS Project\\SPRMS_API\\SPRMS.Infrastructure\\SPRMS.Infrastructure.csproj"
             }
           }
         }
