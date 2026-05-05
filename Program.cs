@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using SPRMS.API.Application.Interfaces;
+using SPRMS.API.Application.Modules.Auth;
 using System.Text.Json;
 using Hangfire;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -126,6 +127,7 @@ try
     builder.Services.AddScoped<IJwtService, JwtService>();
     builder.Services.AddScoped<IAuthService, AuthService>();
     builder.Services.AddScoped<IUserService, UserService>();
+    builder.Services.AddScoped<IUserManagementService, UserManagementService>();
     builder.Services.AddScoped<ApplicationService>();
     builder.Services.AddScoped<IApplicationService>(sp => sp.GetRequiredService<ApplicationService>());
     builder.Services.AddScoped<ScholarshipService>();
